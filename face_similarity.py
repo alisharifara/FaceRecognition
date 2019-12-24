@@ -5,7 +5,7 @@ from PIL import Image
 # Load the image of the person we want to find similar people for
 known_image = fr.load_image_file('test_face.jpg')
 
-# Encode the known image
+# Encode the known imagee
 known_image_encoding = fr.face_encodings(known_image)[0]
 
 # Variables to keep track of the most similar face match we've found
